@@ -18,16 +18,13 @@ Step 5: Migrate tables
 	factory(App\User::class, 100)->create();
 Step 6: Create controller and route
 Step 7: Create a view file. 
-
-
-
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet">
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 
-
+   # Add these functions to Controller
     public function datatable()
     {
         return view('datatable');
